@@ -9,5 +9,5 @@ server.listen(port, err => {
   if (err) {
     throw err
   }
-  console.log(`server started on ${process.env.port || 4200}`)
+  console.log(`server started on ${process.env.PORT || 4200}`)
 })
